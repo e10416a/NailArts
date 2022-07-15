@@ -78,7 +78,7 @@ h2 {
 
 button{
     background-color:#5AF ;
-    border:#5AF solid 10px;
+    border:rgb(255, 85, 85) solid 10px;
     border-radius: 15px;
     color: white;
     padding: 10px;
