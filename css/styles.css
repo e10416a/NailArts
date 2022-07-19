@@ -84,6 +84,11 @@ main{
     font-family: 'pacifico'
 }
 
+.main__principal h3:hover{
+    transform: rotate(5deg);
+    transition: 1s;
+}
+
 .main__item{
     display: flex;
     flex-direction: column;
@@ -155,8 +160,20 @@ margin-top: 50px;
 }
 
 .novedades__boton{
-    background-image: linear-gradient(to top, rgb(180, 221, 231), rgb(199, 148, 178)  );
+    font-style:oblique;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgb(180, 221, 231), rgb(199, 148, 178)  );
 }
+
+.novedades__boton:hover{
+    transform: translate(2px,2px);
+    background-image: linear-gradient(to right, rgb(199, 148, 178), rgb(180, 221, 231)  );
+}
+
+/* INDEX -- SECCION -- OFERTAS */
 
 .ofertas__titulo{
     text-align: center;
@@ -190,11 +207,26 @@ margin-top: 50px;
     height: 200px;
 }
 
+.ofertas__boton{
+    font-style:oblique;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgb(180, 221, 231), rgb(199, 148, 178)  );
+}
+
+.ofertas__boton:hover{
+    transform: translate(2px,2px);
+    background-image: linear-gradient(to right, rgb(199, 148, 178), rgb(180, 221, 231)  );
+}
+
 .final__footer{
 
     padding-top: 20px;
-   
 }
+
+
 
 
 
