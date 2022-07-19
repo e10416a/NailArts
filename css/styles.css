@@ -152,8 +152,10 @@ margin-top: 50px;
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 50px;
+}
 
-    
+.novedades__boton{
+    background-image: linear-gradient(to top, rgb(180, 221, 231), rgb(199, 148, 178)  );
 }
 
 .ofertas__titulo{
