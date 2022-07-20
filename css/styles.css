@@ -4,10 +4,10 @@
 }
 
 
+/* HEADER */
+.header{
 
-header{
-
-    height: 70px;
+    
     background-color:rgb(180, 221, 231);
     
 }
@@ -56,23 +56,12 @@ main{
  
 }
 
-/* INDEX__BANNER */
+/* INDEX BANNER CARROUSEL OFERTAS */
 
-.main__banner{
-  
+.carrousel--tamaño{
+    height: 500px;
 }
 
-.banner__general{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.banner__img{
-    
-    padding: 10px;
-}
 
 .main__principal{
     display:flex;
@@ -245,19 +234,7 @@ h2 {
 
 /* INICIO CLASES PAGINA CONTACTANOS.HTML ----------------------------------------------*/
 
-.form{
 
-    margin-top: 50px;
-    padding-top: 50px;
-}
-
-.contactanos__div{
-    margin-top: 30px;
-}
-
-.contactanos__input{
-    margin-top: 15px;
-}
 
 .contactanos__footer{
     margin-top: 300px;
