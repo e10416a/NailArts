@@ -8,7 +8,9 @@
 
 /* HEADER NAVEGACION*/
 .header{
-
+    background-color: rgb(164, 230, 247);
+    
+    
 }
 
 .header__itemletra {
@@ -17,7 +19,11 @@
    
 }
 
+.favicon__size{
 
+    width: 300px;
+    height: 100px;
+}
 
 /* INDEX MAIN */
 
@@ -120,10 +126,13 @@ margin-top: 50px;
 }
 
 .novedades__boton{
-    font-family: 'Poppins', sans-serif bold;
-    color: rgb(8, 74, 90);
+    font-family: 'Poppins', sans-serif ;
+    color: rgb(170, 5, 129);
+    border-color: rgb(170, 5, 129);
+    border-style: solid;
     width: 120px;
     height: 30px;
+    background-color: white;
     
     
 }
@@ -168,10 +177,13 @@ margin-top: 50px;
 }
 
 .ofertas__boton{
-    font-family: 'Poppins', sans-serif bold;
-    color: rgb(8, 74, 90);
+    font-family: 'Poppins', sans-serif ;
+    color: rgb(170, 5, 129);
+    border-color: rgb(170, 5, 129);
+    border-style: solid;
     width: 120px;
     height: 30px;
+    background-color: white;
 }
 .ofertas__boton:hover{
     transform: translate(2px,2px);
@@ -209,6 +221,20 @@ h2 {
 
 .contactanos__footer{
     margin-top: 300px;
+}
+
+.consulta__boton{
+    font-family: 'Poppins', sans-serif ;
+    color: rgb(170, 5, 129);
+    border-color: rgb(170, 5, 129);
+    border-style: solid;
+    width: 120px;
+    height: 30px;
+    background-color: white;
+}
+
+.consulta__boton:hover{
+    transform: translate(2px,2px);
 }
 
 /* FIN CLASES PAGINA CONTACTANOS.HTML--------------------------------------------------- */
