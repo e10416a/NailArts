@@ -1,0 +1,23 @@
+{
+  "name": "nail_art",
+  "version": "1.0.0",
+  "description": "<h1>NailArts</h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e10416a/NailArts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e10416a/NailArts/issues"
+  },
+  "homepage": "https://github.com/e10416a/NailArts#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
