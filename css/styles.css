@@ -4,6 +4,8 @@ footer {
   margin-top: 20px;
   background-color: #b4dde7;
   padding: 24px; }
+  footer ul {
+    font-family: 'Montserrat', sans-serif; }
   footer .footer__listaitems {
     list-style: none;
     text-decoration: none;
