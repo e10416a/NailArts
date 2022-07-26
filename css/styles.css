@@ -30,10 +30,6 @@ footer {
   padding: 0px; }
 
 /* INDEX MAIN */
-main {
-  /* background-image: url(../resources/Bubble2.jpg);
-    background-size: cover;*/ }
-
 /* INDEX BANNER CARROUSEL OFERTAS */
 .carrousel--tamaño {
   height: 500px; }
@@ -86,12 +82,6 @@ main {
 .ofertas__titulo {
   text-align: center;
   background-color: #a4e6f7; }
-
-.ofertas__general {
-  /*display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;*/ }
 
 .ofertas__item h5 {
   text-align: center; }
