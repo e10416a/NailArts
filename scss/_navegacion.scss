@@ -1,0 +1,22 @@
+/* HEADER NAVEGACION*/
+.header{
+    background-color: rgb(164, 230, 247);
+
+    &__itemletra {
+
+        font-family: 'Montserrat', sans-serif;
+       
+    }
+}
+
+
+
+.favicon__size{
+
+    width: 300px;
+    height: 100px;
+}
+
+.nav-link:visited{
+    color: #e70a0a;
+}

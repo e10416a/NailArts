@@ -1,0 +1,112 @@
+/* MEDIA QUERY CELULAR */
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /* NAVEGACION */
+    .main__ofertas{
+        
+        margin-left:1px;
+        margin-right:1px;
+        margin-top: 15px;
+    }
+    
+    .main__novedades{
+        
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 15px;
+    
+    }
+    
+    .ofertas__boton{
+        font-family: 'Poppins', sans-serif ;
+        color: rgb(5, 170, 60);
+        border-color: rgb(204, 163, 194);
+        border-style: solid;
+       
+        background-color: white;
+    }
+    
+    /* NUESTROS PRODUCTOS - PRODUCTOS-GRID */
+
+    .productos__grid{
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        
+    }
+
+    .producto1{
+    grid-column: 1,2;        
+    grid-row: 1,2;
+    
+    }
+    
+    .producto2{
+     grid-column: 1,2;
+     grid-row: 2,3;   
+     
+    }
+    
+    .producto3{
+     grid-column: 1,2;
+     grid-row: 3,4;
+    }
+    
+    .producto4{
+     grid-column: 1,2;
+     grid-row: 4,5;
+    }
+    
+    .producto5{
+     grid-column: 1,2;
+     grid-row: 5,6;
+    }
+    
+    .producto6{
+     grid-column: 1,2;
+     grid-row: 6,7;
+    }
+    
+    .producto7{
+     grid-column: 1,2;
+     grid-row: 7,8;
+    }
+
+}
+    
+  
+    
+
+
+
+
+/*MEDIA QUERY TABLET */
+@media (min-width: 576px) and (max-width: 992px) {
+    
+    .main__ofertas{
+        
+        margin-left: 1px;
+        margin-right:1px;
+        margin-top: 50px;
+    }
+    
+    .main__novedades{
+        
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 50px;   
+    }
+
+    .ofertas__boton{
+        font-family: 'Poppins', sans-serif ;
+        color: rgb(5, 170, 60);
+        border-color: rgb(204, 163, 194);
+        border-style: solid;
+       
+        background-color: white;
+    }
+
+
+/* FOOTER */
+}
