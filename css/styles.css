@@ -43,59 +43,52 @@ footer {
   transition: 1s; }
 
 /* INDEX -- SECCION -- NOVEDADES */
-.main__novedades {
+.novedades {
   border-style: solid;
   border-color: #a4e6f7;
   margin-left: 300px;
   margin-right: 300px;
   margin-top: 50px; }
-
-.novedades__titulo {
-  text-align: center;
-  background-color: #a4e6f7; }
-
-.novedades__general {
-  padding: 30px; }
-
-.novedades__item h5 {
-  text-align: center; }
+  .novedades__titulo {
+    text-align: center;
+    background-color: #a4e6f7; }
+  .novedades__general {
+    padding: 30px; }
+  .novedades__subtitulo {
+    text-align: center; }
+  .novedades__boton {
+    font-family: 'Poppins', sans-serif;
+    color: #aa0581;
+    border-color: #aa0581;
+    border-style: solid;
+    background-color: white; }
+    .novedades__boton:hover {
+      transform: translate(2px, 2px); }
 
 /*  INDEX -- SECCION -- OFERTAS */
-.main__ofertas {
+.ofertas {
   border-style: solid;
   border-color: #a4e6f7;
   margin-left: 300px;
   margin-right: 300px;
   margin-top: 50px; }
-
-.novedades__boton {
-  font-family: 'Poppins', sans-serif;
-  color: #aa0581;
-  border-color: #aa0581;
-  border-style: solid;
-  background-color: white; }
-
-.novedades__boton:hover {
-  transform: translate(2px, 2px); }
+  .ofertas__titulo {
+    text-align: center;
+    background-color: #a4e6f7; }
+  .ofertas__general {
+    padding: 30px; }
+  .ofertas__subtitulo {
+    text-align: center; }
+  .ofertas .ofertas__boton {
+    font-family: 'Poppins', sans-serif;
+    color: #aa0581;
+    border-color: #aa0581;
+    border-style: solid;
+    background-color: white; }
+    .ofertas .ofertas__boton:hover {
+      transform: translate(2px, 2px); }
 
 /* INDEX -- SECCION -- OFERTAS */
-.ofertas__titulo {
-  text-align: center;
-  background-color: #a4e6f7; }
-
-.ofertas__item h5 {
-  text-align: center; }
-
-.ofertas__boton {
-  font-family: 'Poppins', sans-serif;
-  color: #aa0581;
-  border-color: #aa0581;
-  border-style: solid;
-  background-color: white; }
-
-.ofertas__boton:hover {
-  transform: translate(2px, 2px); }
-
 .final__footer {
   padding-top: 20px; }
 
@@ -118,7 +111,8 @@ h2 {
   border-style: solid;
   width: 120px;
   height: 30px;
-  background-color: white; }
+  background-color: white;
+  align-self: center; }
 
 .consulta__boton:hover {
   transform: translate(2px, 2px); }
