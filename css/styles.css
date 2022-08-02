@@ -24,6 +24,96 @@ footer {
 .nav-link:visited {
   color: #e70a0a; }
 
+.productos__grid {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "producto1 producto2 producto3" "producto1 producto4 producto3" "producto5 producto6 producto7";
+  column-gap: 15px;
+  row-gap: 15px; }
+
+.producto1 {
+  grid-area: producto1;
+  background-image: url(../resources/producto1.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.producto2 {
+  grid-area: producto2;
+  display: flex;
+  background-image: url(../resources/producto2.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.producto3 {
+  grid-area: producto3;
+  background-image: url(../resources/producto3.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.producto4 {
+  grid-area: producto4;
+  background-image: url(../resources/producto4.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.producto5 {
+  grid-area: producto5;
+  background-image: url(../resources/producto5.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.producto6 {
+  grid-area: producto6;
+  background-image: url(../resources/producto6.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.producto7 {
+  grid-area: producto7;
+  background-image: url(../resources/producto7.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.tituloprod {
+  display: flex;
+  font-size: 35px;
+  justify-content: center;
+  align-items: center; }
+
+.sucursales {
+  display: inline; }
+  .sucursales__lista {
+    display: inline; }
+    .sucursales__lista--item {
+      display: inline;
+      width: 600px;
+      height: 300px;
+      padding: 50px; }
+
+.contactanos__footer {
+  margin-top: 300px; }
+
+textarea {
+  resize: none; }
+
+.consulta__boton {
+  font-family: 'Poppins', sans-serif;
+  color: #aa0581;
+  border-color: #aa0581;
+  border-style: solid;
+  width: 120px;
+  height: 30px;
+  background-color: white;
+  align-self: center; }
+  .consulta__boton:hover {
+    transform: translate(2px, 2px); }
+
+.sobre__nosotros--size {
+  padding: 0px; }
+
 * {
   margin: 0px;
   /* RESETEO DE MARGENES */
@@ -99,102 +189,6 @@ h1 {
 h2 {
   font-family: 'Montserrat', sans-serif;
   text-align: center; }
-
-/* INICIO CLASES PAGINA CONTACTANOS.HTML ----------------------------------------------*/
-.contactanos__footer {
-  margin-top: 300px; }
-
-.consulta__boton {
-  font-family: 'Poppins', sans-serif;
-  color: #aa0581;
-  border-color: #aa0581;
-  border-style: solid;
-  width: 120px;
-  height: 30px;
-  background-color: white;
-  align-self: center; }
-
-.consulta__boton:hover {
-  transform: translate(2px, 2px); }
-
-/* FIN CLASES PAGINA CONTACTANOS.HTML--------------------------------------------------- */
-/* INICIO CLASES PAGINA DONDE_ESTAMOS.HTML ----------------------------------------------*/
-.sucursales {
-  display: inline; }
-
-.sucursales__lista {
-  display: inline; }
-
-.sucursales__lista--item {
-  display: inline;
-  width: 300px;
-  height: 300px;
-  padding: 50px; }
-
-/* FIN CLASES PAGINA DONDE_ESTAMOS.HTML --------------------------------------------------*/
-/* INICIO CLASES PAGINA NUESTROS_PRODUCTOS.HTML */
-.productos__grid {
-  display: grid;
-  width: 100vw;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "producto1 producto2 producto3" "producto1 producto4 producto3" "producto5 producto6 producto7";
-  column-gap: 15px;
-  row-gap: 15px; }
-
-.producto1 {
-  grid-area: producto1;
-  background-image: url(../resources/producto1.jpg);
-  background-position: center;
-  background-size: cover; }
-
-.producto2 {
-  grid-area: producto2;
-  display: flex;
-  background-image: url(../resources/producto2.jpg);
-  background-position: center;
-  background-size: cover; }
-
-.producto3 {
-  grid-area: producto3;
-  background-image: url(../resources/producto3.jpg);
-  background-position: center;
-  background-size: cover; }
-
-.producto4 {
-  grid-area: producto4;
-  background-image: url(../resources/producto4.jpg);
-  background-position: center;
-  background-size: cover; }
-
-.producto5 {
-  grid-area: producto5;
-  background-image: url(../resources/producto5.jpg);
-  background-position: center;
-  background-size: cover; }
-
-.producto6 {
-  grid-area: producto6;
-  background-image: url(../resources/producto6.jpg);
-  background-position: center;
-  background-size: cover; }
-
-.producto7 {
-  grid-area: producto7;
-  background-image: url(../resources/producto7.jpg);
-  background-position: center;
-  background-size: cover; }
-
-.tituloprod {
-  display: flex;
-  font-size: 35px;
-  justify-content: center;
-  align-items: center; }
-
-/* INICIO CLASES PAGINA SOBRE_NOSOTROS.HTML */
-.sobre__nosotros--size {
-  padding: 0px; }
 
 @media (min-width: 320px) and (max-width: 575px) {
   .carrousel--tamaño {

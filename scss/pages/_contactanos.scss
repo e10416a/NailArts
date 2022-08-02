@@ -1,0 +1,23 @@
+.contactanos__footer{
+    margin-top: 300px;
+}
+
+textarea{
+    resize: none;
+}
+
+.consulta__boton{
+    font-family: 'Poppins', sans-serif ;
+    color: rgb(170, 5, 129);
+    border-color: rgb(170, 5, 129);
+    border-style: solid;
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    align-self: center;
+
+            &:hover{
+                transform: translate(2px,2px);
+            }
+}
+
