@@ -29,6 +29,10 @@ footer {
   background-position: center;
   background-size: cover; }
 
+button:hover {
+  transform: translate(2px, 2px);
+  transition: 0.1s; }
+
 .productos__grid {
   display: grid;
   width: 70vw;
@@ -41,35 +45,31 @@ footer {
 
 .producto1 {
   grid-area: producto1;
-  background-image: url(../resources/esmaltes2.jpg); }
-
-button:hover {
-  transform: translate(2px, 2px);
-  transition: 0.1s; }
+  background-image: url(../resources/imagenes_producto/esmaltes2.JPG); }
 
 .producto2 {
   grid-area: producto2;
-  background-image: url(../resources/producto2.jpg); }
+  background-image: url(../resources/imagenes_producto/producto2.jpg); }
 
 .producto3 {
   grid-area: producto3;
-  background-image: url(../resources/camarauv.jpg); }
+  background-image: url(../resources/imagenes_producto/camarauv.jpg); }
 
 .producto4 {
   grid-area: producto4;
-  background-image: url(../resources/producto4.jpg); }
+  background-image: url(../resources/imagenes_producto/producto4.jpg); }
 
 .producto5 {
   grid-area: producto5;
-  background-image: url(../resources/producto5.jpg); }
+  background-image: url(../resources/imagenes_producto/producto5.jpg); }
 
 .producto6 {
   grid-area: producto6;
-  background-image: url(../resources/producto6.jpg); }
+  background-image: url(../resources/imagenes_producto/producto6.jpg); }
 
 .producto7 {
   grid-area: producto7;
-  background-image: url(../resources/producto7.jpg); }
+  background-image: url(../resources/imagenes_producto/producto7.jpg); }
 
 .tituloprod {
   display: flex;
