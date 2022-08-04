@@ -83,16 +83,6 @@ footer {
   justify-content: center;
   align-items: center; }
 
-.sucursales {
-  display: inline; }
-  .sucursales__lista {
-    display: inline; }
-    .sucursales__lista--item {
-      display: inline;
-      width: 600px;
-      height: 300px;
-      padding: 50px; }
-
 .contactanos__footer {
   margin-top: 300px; }
 
@@ -132,63 +122,47 @@ textarea {
   transform: rotate(5deg);
   transition: 1s; }
 
-/* INDEX -- SECCION -- NOVEDADES */
-.novedades {
+/* PROPIEDADES APLICADAS ARTICULOS */
+.area__estilo, .articulos {
   border-style: solid;
   border-color: #a4e6f7;
   margin-left: 300px;
   margin-right: 300px;
   margin-top: 50px; }
-  .novedades__titulo {
-    text-align: center;
-    background-color: #a4e6f7; }
-  .novedades__general {
-    padding: 30px; }
-  .novedades__subtitulo {
-    text-align: center; }
-  .novedades__boton {
-    font-family: 'Poppins', sans-serif;
-    color: #aa0581;
-    border-color: #aa0581;
-    border-style: solid;
-    background-color: white; }
-    .novedades__boton:hover {
-      transform: translate(2px, 2px); }
 
-/*  INDEX -- SECCION -- OFERTAS */
-.ofertas {
+.area__titulo, .articulos__titulo {
+  text-align: center;
+  background-color: #a4e6f7; }
+
+.area__boton, .articulos__boton {
+  font-family: 'Poppins', sans-serif;
+  color: #aa0581;
+  border-color: #aa0581;
   border-style: solid;
-  border-color: #a4e6f7;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 50px; }
-  .ofertas__titulo {
-    text-align: center;
-    background-color: #a4e6f7; }
-  .ofertas__general {
-    padding: 30px; }
-  .ofertas__subtitulo {
-    text-align: center; }
-  .ofertas .ofertas__boton {
-    font-family: 'Poppins', sans-serif;
-    color: #aa0581;
-    border-color: #aa0581;
-    border-style: solid;
-    background-color: white; }
-    .ofertas .ofertas__boton:hover {
-      transform: translate(2px, 2px); }
+  background-color: white; }
 
-/* INDEX -- SECCION -- OFERTAS */
+/*  ARTICULOS RECUADROS */
+.articulos__general {
+  padding: 30px; }
+
+.articulos__subtitulo {
+  text-align: center; }
+
+.articulos__boton:hover {
+  transform: translate(2px, 2px); }
+
 .final__footer {
   padding-top: 20px; }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  text-align: center; }
+  text-align: center;
+  font-size: 3rem; }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  text-align: center; }
+  text-align: center;
+  font-size: 2rem; }
 
 @media (min-width: 320px) and (max-width: 575px) {
   .carrousel--tamaño {

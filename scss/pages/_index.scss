@@ -1,0 +1,251 @@
+*{
+    margin: 0px;   /* RESETEO DE MARGENES */
+    padding: 0px;
+}
+
+
+
+
+
+
+/* INDEX MAIN */
+
+
+
+/* INDEX BANNER CARROUSEL OFERTAS */
+
+.carrousel--tamaño{
+    height: 500px;
+}
+
+
+
+
+
+.main__principal h5{
+    font-family: 'pacifico';
+    font-size: smaller;
+    
+
+}
+
+.main__principal h5:hover{
+    transform: rotate(5deg);
+    transition: 1s
+}
+
+/* PROPIEDADES APLICADAS ARTICULOS */
+
+.area__estilo{
+    border-style:solid;
+    border-color:rgb(164, 230, 247);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+.area__titulo{
+ 
+    text-align: center;
+    background-color:rgb(164, 230, 247);
+}
+
+.area__boton{
+
+    font-family: 'Poppins', sans-serif ;
+            color: rgb(170, 5, 129);
+            border-color: rgb(170, 5, 129);
+            border-style: solid;
+            background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  ARTICULOS RECUADROS */
+
+.articulos{
+    @extend .area__estilo;
+
+    &__titulo{
+        @extend .area__titulo;
+    }
+    
+    &__general{
+        padding: 30px;
+    }
+
+    &__subtitulo{
+       
+        text-align: center;
+    }
+    
+    
+    &__boton{
+        @extend .area__boton;
+
+        &:hover{
+            transform: translate(2px,2px);
+        
+        }
+    }
+    
+    
+
+
+}
+
+
+
+
+
+
+.final__footer{
+
+    padding-top: 20px;
+}
+
+
+
+
+
+
+h1{
+    
+    font-family: 'Montserrat', sans-serif ;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif ;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .carrousel--tamaño{
+        height: 200px;
+    }
+    
+    /* NAVEGACION */
+    .main__ofertas{
+        
+        margin: 0px;
+        margin-top: 15px;
+    }
+    
+    .main__novedades{
+        
+        margin: 0px;
+        margin-top: 15px;
+    
+    }
+    
+    
+    
+    /* NUESTROS PRODUCTOS - PRODUCTOS-GRID */
+
+    .productos__grid{
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        
+    }
+
+    .producto1{
+    grid-column: 1,2;        
+    grid-row: 1,2;
+    
+    }
+    
+    .producto2{
+     grid-column: 1,2;
+     grid-row: 2,3;   
+     
+    }
+    
+    .producto3{
+     grid-column: 1,2;
+     grid-row: 3,4;
+    }
+    
+    .producto4{
+     grid-column: 1,2;
+     grid-row: 4,5;
+    }
+    
+    .producto5{
+     grid-column: 1,2;
+     grid-row: 5,6;
+    }
+    
+    .producto6{
+     grid-column: 1,2;
+     grid-row: 6,7;
+    }
+    
+    .producto7{
+     grid-column: 1,2;
+     grid-row: 7,8;
+    }
+
+}
+    
+  
+    
+
+
+
+
+/*MEDIA QUERY TABLET */
+@media (min-width: 576px) and (max-width: 992px) {
+    
+    .main__ofertas{
+        
+        margin: 0px;
+        margin-top: 50px;
+    }
+    
+    .main__novedades{
+        
+        margin: 0px;
+        margin-top: 50px;   
+    }
+
+    .carrousel--tamaño{
+        height: 350px;
+    }
+    
+
+/* FOOTER */
+}
