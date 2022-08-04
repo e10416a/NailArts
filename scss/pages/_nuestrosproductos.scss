@@ -1,8 +1,18 @@
+
+
+
+.producto__propiedades{
+    display: flex;
+    background-position: center;
+    background-size: cover;
+}
+
+
 .productos__grid{
 
     display:grid;
-    width: 100vw;
-    height: 100vh;
+    width: 70vw;
+    height: 70vh;
     grid-template-columns:1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "producto1 producto2 producto3"
@@ -15,52 +25,52 @@
 
 .producto1{
     grid-area: producto1;
-    background-image: url(../resources/producto1.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: url(../resources/esmaltes2.jpg);
+    @extend .producto__propiedades
+}
+
+button:hover{
+    transform: translate(2px,2px);
+    transition: 0.1s;
+    
 }
 
 .producto2{
     grid-area: producto2;
-    display: flex;
     background-image: url(../resources/producto2.jpg);
-    background-position: center;
-    background-size: cover;
+    @extend .producto__propiedades
+    
 }
 
 .producto3{
     grid-area: producto3;
-    background-image: url(../resources/producto3.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: url(../resources/camarauv.jpg);
+    @extend .producto__propiedades
+    
 }
 
 .producto4{
     grid-area: producto4;
     background-image: url(../resources/producto4.jpg);
-    background-position: center;
-    background-size: cover;
+    @extend .producto__propiedades
 }
 
 .producto5{
     grid-area: producto5;
     background-image: url(../resources/producto5.jpg);
-    background-position: center;
-    background-size: cover;
+    @extend .producto__propiedades
 }
 
 .producto6{
     grid-area: producto6;
     background-image: url(../resources/producto6.jpg);
-    background-position: center;
-    background-size: cover;
+    @extend .producto__propiedades
 }
 
 .producto7{
     grid-area: producto7;
     background-image: url(../resources/producto7.jpg);
-    background-position: center;
-    background-size: cover;
+    @extend .producto__propiedades
 }
 
 .tituloprod{
