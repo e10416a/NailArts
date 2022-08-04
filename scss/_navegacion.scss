@@ -4,9 +4,9 @@
 
     &__itemletra {
 
-        font-family: 'Montserrat', sans-serif;
-       
-    }
+        font-family: 'Montserrat', sans-serif,;
+        font-style: italic;
+        }
 }
 
 
@@ -17,6 +17,3 @@
     height: 100px;
 }
 
-.nav-link:visited{
-    color: #e70a0a;
-}

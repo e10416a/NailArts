@@ -15,14 +15,12 @@ footer {
 .header {
   background-color: #a4e6f7; }
   .header__itemletra {
-    font-family: 'Montserrat', sans-serif; }
+    font-family: "Montserrat", sans-serif;
+    font-style: italic; }
 
 .favicon__size {
   width: 300px;
   height: 100px; }
-
-.nav-link:visited {
-  color: #e70a0a; }
 
 .producto__propiedades, .producto1, .producto2, .producto3, .producto4, .producto5, .producto6, .producto7 {
   display: flex;
